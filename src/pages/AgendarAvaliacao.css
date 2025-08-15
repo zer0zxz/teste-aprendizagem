@@ -1,0 +1,79 @@
+.container-agendamento {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container-agendamento h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.container-agendamento label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 500;
+}
+
+.container-agendamento input,
+.container-agendamento textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.grade-horarios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.botao-horario {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  min-width: 80px;
+  transition: background-color 0.2s ease;
+}
+
+.botao-horario:hover {
+  background-color: #ddd;
+}
+
+.botao-horario.ativo {
+  background-color: #007bff;
+  color: white;
+}
+
+.botao-confirmar {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.botao-confirmar:hover {
+  background-color: #218838;
+}

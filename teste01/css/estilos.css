@@ -1,0 +1,166 @@
+body {
+    background-color: #111;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(189, 189, 189)
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background-color: #000;
+  height: 80px;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav img {
+  height: 100px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .menu {
+  display: flex;
+  align-items: center;
+}
+
+
+#banner {
+  background: url('banner.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#banner h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+#banner p {
+  font-size: 18px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+section {
+  padding: 40px 20px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+#servicos {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #111;
+  color: white;
+}
+
+#servicos h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.cards-planos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.plano {
+  display: inline-block;
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 10px;
+  width: 250px;
+  vertical-align: top;
+}
+.plano:hover {
+  transform: scale(1.05);
+  border-color: #111;
+}
+
+.plano h3 {
+  color: rgb(255, 35, 35);
+  margin-bottom: 10px;
+}
+
+.plano ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.plano ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #333;
+}
+
+main {
+  flex: 1;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+footer a {
+    margin-left: 20px;
+}
