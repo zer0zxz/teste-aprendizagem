@@ -2,6 +2,7 @@
   "name": "zerogym",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://seu-usuario.github.io/nome-do-repo",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "@testing-library/dom": "^10.4.0",
@@ -16,12 +17,14 @@
     "react-datepicker": "^8.4.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^0.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,6 +48,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11"
   },
